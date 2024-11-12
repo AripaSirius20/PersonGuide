@@ -1,3 +1,3 @@
-# Weather App 🌤
+# Contacts Application 📇
 
-This project is a simple weather app that displays current weather information based on the city name entered by the user. The app fetches current weather data using the OpenWeatherMap API.
+This project is a simple contacts application where users can save, list and delete contact information. The application is developed with HTML, CSS and JavaScript.
