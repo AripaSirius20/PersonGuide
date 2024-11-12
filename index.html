@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kişi Rehber Uygulaması</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Kişi Rehber Uygulaması</h1>
+    <form id="personForm">
+      <input type="text" id="name" placeholder="Ad Soyad" required />
+      <input type="tel" id="phone" placeholder="Telefon Numarası" required />
+      <input type="email" id="email" placeholder="E-posta Adresi" required />
+      <button type="submit">Kişi Ekle</button>
+    </form>
+    <div id="personList" class="person-list"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
